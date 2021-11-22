@@ -20,6 +20,7 @@ class LinkedList {
         LinkedList(Node* head){
             this->head = head;
         }
+
         void printList(){
             Node* temp = this->head;
             while(temp != NULL){
